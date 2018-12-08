@@ -24,7 +24,7 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 */
-
+// test cdn refresh
 // ====================================================================================================================
 // The constructor for the WinWheel object, a JOSN-like array of options can be passed in.
 // By default the wheel is drawn if canvas object exists on the page, but can pass false as second parameter if don't want this to happen.
