@@ -27,8 +27,8 @@
 <html>
     <head>
         <title>HTML5 Canvas Winning Wheel</title>
-        <link rel="stylesheet" href="main.css" type="text/css" />
-        <script type="text/javascript" src="../../Winwheel.js"></script>
+        <link rel="stylesheet" href="./examples/two_part_wheel/main.css" type="text/css" />
+        <script type="text/javascript" src="./Winwheel.js"></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     </head>
     <body>
@@ -190,7 +190,7 @@
                     wheelPower = powerLevel;
 
                     // Light up the spin button by changing it's source image and adding a clickable class to it.
-                    document.getElementById('spin_button').src = "spin_on.png";
+                    document.getElementById('spin_button').src = "./examples/two_part_wheel/spin_on.png";
                     document.getElementById('spin_button').className = "clickable";
                 }
             }
@@ -230,7 +230,7 @@
                     }
 
                     // Disable the spin button so can't click again while wheel is spinning.
-                    document.getElementById('spin_button').src       = "spin_off.png";
+                    document.getElementById('spin_button').src       = "./examples/two_part_wheel/spin_off.png";
                     document.getElementById('spin_button').className = "";
 
                     // Begin the spin animation by calling startAnimation on the wheel object.
